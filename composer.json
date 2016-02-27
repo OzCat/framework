@@ -27,6 +27,9 @@
     "classmap": [
 
     ],
+    "files": [
+      "src/OzCat/Support/helpers.php"
+    ],
     "psr-4": {
       "OzCat\\": "src/OzCat"
     }
