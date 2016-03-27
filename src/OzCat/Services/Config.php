@@ -7,6 +7,13 @@ class Config
 {
     public static function get($key)
     {
-        return getenv($key);
+        $key = getenv($key);
+        if ($key == 'true') {
+            return true;
+        }
+        if ($key == 'false') {
+            return false;
+        }
+        return $key;
     }
 }
