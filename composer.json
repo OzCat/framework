@@ -21,11 +21,15 @@
     "zeuxisoo/slim-whoops": "0.4.*",
     "firebase/php-jwt": "~3.0",
     "aws/aws-sdk-php": "3.*",
-    "gregwar/captcha": "1.*"
+    "gregwar/captcha": "1.*",
+    "desarrolla2/cache":  "~2.0"
   },
   "autoload": {
     "classmap": [
 
+    ],
+    "files": [
+      "src/OzCat/Support/helpers.php"
     ],
     "psr-4": {
       "OzCat\\": "src/OzCat"
